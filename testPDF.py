@@ -3,3 +3,4 @@ for line in fi:
     line = line.rstrip()
     if line == "Education":
         print line
+print "Done!"
