@@ -9,6 +9,11 @@ import oauth2 as oauth
 # provided in your LinkedIn application
 
 # Instantiate the developer authentication class
+CONSUMER_KEY    = "75likp88gg9f5k" 
+CONSUMER_SECRET = "NDXtA3errZi4GS7z"
+USER_TOKEN      = "aba70254-91e9-4ee9-a3a7-6ceb029b6328"
+USER_SECRET     = "6380aa31-ae80-406b-a440-afbfef13c2c6"
+RETURN_URL      = "http://localhost:8000"
 
 print linkedin.PERMISSIONS.enums.values()
 authentication = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER_SECRET, 
